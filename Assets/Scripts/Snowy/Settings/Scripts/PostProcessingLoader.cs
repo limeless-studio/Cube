@@ -1,4 +1,7 @@
-﻿using GI.Universal;
+﻿# if SN_GI
+using GI.Universal;
+#endif
+
 using UnityEngine;
 using UnityEngine.Rendering;
 using UnityEngine.Rendering.Universal;
@@ -15,7 +18,9 @@ namespace Snowy.Settings
         MotionBlur m_motionBlur;
         DepthOfField m_depthOfField;
         FilmGrain m_filmGrain;
+        # if SN_GI
         GlobalIllumination m_globalIllumination;
+        #endif
 
         private void Awake()
         {
@@ -38,7 +43,9 @@ namespace Snowy.Settings
             m_volume.profile.TryGet(out m_motionBlur);
             m_volume.profile.TryGet(out m_depthOfField);
             m_volume.profile.TryGet(out m_filmGrain);
+            # if SN_GI
             m_volume.profile.TryGet(out m_globalIllumination);
+            #endif
         }
         
         private void OnProfileChanged(GraphicProfile profile)
@@ -53,8 +60,10 @@ namespace Snowy.Settings
                 m_motionBlur.active = profile.motionBlur;
             if (m_depthOfField)
                 m_depthOfField.active = profile.depthOfField;
+            # if SN_GI
             if (m_globalIllumination)
                 m_globalIllumination.active = profile.globalIllumination;
+            #endif
         }
     }
 }

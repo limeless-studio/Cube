@@ -1,7 +1,9 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+# if SN_GI
 using GI.Universal;
+#endif
 using Snowy.Utils;
 using UnityEngine;
 using UnityEngine.Rendering.Universal;
