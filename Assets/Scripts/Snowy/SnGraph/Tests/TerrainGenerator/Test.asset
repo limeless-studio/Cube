@@ -1,0 +1,166 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4bf09b2a4cf418b885bb4df23221e42, type: 3}
+  m_Name: Test
+  m_EditorClassIdentifier: 
+  nodes:
+  - rid: 2139147338906075227
+  - rid: 2139147612231827555
+  - rid: 2139147612231827556
+  - rid: 2139147612231827557
+  comments: []
+  assetVersion: 1
+  references:
+    version: 2
+    RefIds:
+    - rid: 2139147338906075227
+      type: {class: TerrainOutput, ns: Snowy.SnGraph.Tests, asm: Assembly-CSharp}
+      data:
+        id: f19d6bf7-06f5-4abb-9bdc-35c6bfa0c766
+        name: Terrain Output
+        graph: {fileID: 11400000}
+        position: {x: 0, y: 0}
+        ports:
+        - name: map
+          type: Snowy.SnGraph.Tests.Heightmap, Assembly-CSharp, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+          capacity: 0
+          direction: 0
+          orientation: 0
+          connections:
+          - nodeId: 13dcf798-b37b-4197-94f9-c0c7497a6df7
+            portName: result
+    - rid: 2139147612231827555
+      type: {class: NewfBMHeightmap, ns: Snowy.SnGraph.Tests.TerrainGenerator, asm: Assembly-CSharp}
+      data:
+        id: f2fc98ab-25ec-41ed-a16c-c9a5bd267cce
+        name: New fBM Heightmap
+        graph: {fileID: 11400000}
+        position: {x: -733, y: 395}
+        ports:
+        - name: region
+          type: UnityEngine.Rect, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+            PublicKeyToken=null
+          capacity: 0
+          direction: 0
+          orientation: 0
+          connections: []
+        - name: octaves
+          type: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+          capacity: 0
+          direction: 0
+          orientation: 0
+          connections: []
+        - name: amplitude
+          type: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+          capacity: 0
+          direction: 0
+          orientation: 0
+          connections: []
+        - name: lacunarity
+          type: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+          capacity: 0
+          direction: 0
+          orientation: 0
+          connections: []
+        - name: scale
+          type: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+          capacity: 0
+          direction: 0
+          orientation: 0
+          connections: []
+        - name: result
+          type: Snowy.SnGraph.Tests.Heightmap, Assembly-CSharp, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+          capacity: 1
+          direction: 1
+          orientation: 0
+          connections:
+          - nodeId: 13dcf798-b37b-4197-94f9-c0c7497a6df7
+            portName: background
+        region:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 100
+          height: 100
+        octaves: 6
+        amplitude: 0.2
+        lacunarity: 2
+        scale: 10
+    - rid: 2139147612231827556
+      type: {class: Blend, ns: Snowy.SnGraph.Tests.TerrainGenerator, asm: Assembly-CSharp}
+      data:
+        id: 13dcf798-b37b-4197-94f9-c0c7497a6df7
+        name: Blend
+        graph: {fileID: 11400000}
+        position: {x: -303, y: 52}
+        ports:
+        - name: background
+          type: Snowy.SnGraph.Tests.Heightmap, Assembly-CSharp, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+          capacity: 0
+          direction: 0
+          orientation: 0
+          connections:
+          - nodeId: f2fc98ab-25ec-41ed-a16c-c9a5bd267cce
+            portName: result
+        - name: opacity
+          type: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+          capacity: 0
+          direction: 0
+          orientation: 0
+          connections: []
+        - name: map
+          type: Snowy.SnGraph.Tests.Heightmap, Assembly-CSharp, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+          capacity: 0
+          direction: 0
+          orientation: 0
+          connections:
+          - nodeId: 92891c84-27cc-4ea7-b7de-9b4151d62557
+            portName: result
+        - name: result
+          type: Snowy.SnGraph.Tests.Heightmap, Assembly-CSharp, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+          capacity: 1
+          direction: 1
+          orientation: 0
+          connections:
+          - nodeId: f19d6bf7-06f5-4abb-9bdc-35c6bfa0c766
+            portName: map
+        opacity: 1
+        mode: 1
+    - rid: 2139147612231827557
+      type: {class: NewFlatHeightmap, ns: Snowy.SnGraph.Tests.TerrainGenerator, asm: Assembly-CSharp}
+      data:
+        id: 92891c84-27cc-4ea7-b7de-9b4151d62557
+        name: New Flat Heightmap
+        graph: {fileID: 11400000}
+        position: {x: -765, y: 0}
+        ports:
+        - name: height
+          type: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+          capacity: 0
+          direction: 0
+          orientation: 0
+          connections: []
+        - name: result
+          type: Snowy.SnGraph.Tests.Heightmap, Assembly-CSharp, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+          capacity: 1
+          direction: 1
+          orientation: 0
+          connections:
+          - nodeId: 13dcf798-b37b-4197-94f9-c0c7497a6df7
+            portName: map
+        height: 0.2

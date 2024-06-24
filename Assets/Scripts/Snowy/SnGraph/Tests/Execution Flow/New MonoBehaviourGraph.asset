@@ -1,0 +1,797 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: adbcfb50ec106564b96cfc24d41626a1, type: 3}
+  m_Name: New MonoBehaviourGraph
+  m_EditorClassIdentifier: 
+  nodes:
+  - rid: 2139147338906075288
+  - rid: 2139147338906075289
+  - rid: 2139147338906075296
+  - rid: 2139147338906075303
+  - rid: 2139147338906075304
+  - rid: 2139147338906075305
+  - rid: 2139147338906075311
+  - rid: 2139147338906075315
+  - rid: 2139147338906075317
+  - rid: 2139147338906075318
+  - rid: 2139147338906075319
+  - rid: 2139147338906075335
+  - rid: 2139147338906075337
+  - rid: 2139147338906075339
+  - rid: 2139147338906075343
+  - rid: 2139147338906075344
+  - rid: 2139147338906075357
+  - rid: 2139147338906075358
+  - rid: 2139147338906075359
+  comments: []
+  assetVersion: 1
+  variables:
+    entries:
+    - name: ITest
+      type: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      isConstant: 0
+      singleValue: 0
+      int32Value: 0
+      stringValue: 
+      booleanValue: 0
+      vector2Value: {x: 0, y: 0}
+      vector3Value: {x: 0, y: 0, z: 0}
+      vector4Value: {x: 0, y: 0, z: 0, w: 0}
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      animationcurveValue:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      gradientValue:
+        serializedVersion: 2
+        key0: {r: 1, g: 1, b: 1, a: 1}
+        key1: {r: 1, g: 1, b: 1, a: 1}
+        key2: {r: 0, g: 0, b: 0, a: 0}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+        key4: {r: 0, g: 0, b: 0, a: 0}
+        key5: {r: 0, g: 0, b: 0, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 0
+        ctime3: 0
+        ctime4: 0
+        ctime5: 0
+        ctime6: 0
+        ctime7: 0
+        atime0: 0
+        atime1: 65535
+        atime2: 0
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_ColorSpace: -1
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      objectValue: {fileID: 0}
+    - name: Counter
+      type: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      isConstant: 1
+      singleValue: 0
+      int32Value: 5
+      stringValue: 
+      booleanValue: 0
+      vector2Value: {x: 0, y: 0}
+      vector3Value: {x: 0, y: 0, z: 0}
+      vector4Value: {x: 0, y: 0, z: 0, w: 0}
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      animationcurveValue:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      gradientValue:
+        serializedVersion: 2
+        key0: {r: 1, g: 1, b: 1, a: 1}
+        key1: {r: 1, g: 1, b: 1, a: 1}
+        key2: {r: 0, g: 0, b: 0, a: 0}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+        key4: {r: 0, g: 0, b: 0, a: 0}
+        key5: {r: 0, g: 0, b: 0, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 0
+        ctime3: 0
+        ctime4: 0
+        ctime5: 0
+        ctime6: 0
+        ctime7: 0
+        atime0: 0
+        atime1: 65535
+        atime2: 0
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_ColorSpace: -1
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      objectValue: {fileID: 0}
+    - name: UseUpdate
+      type: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      isConstant: 0
+      singleValue: 0
+      int32Value: 0
+      stringValue: 
+      booleanValue: 0
+      vector2Value: {x: 0, y: 0}
+      vector3Value: {x: 0, y: 0, z: 0}
+      vector4Value: {x: 0, y: 0, z: 0, w: 0}
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      animationcurveValue:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      gradientValue:
+        serializedVersion: 2
+        key0: {r: 1, g: 1, b: 1, a: 1}
+        key1: {r: 1, g: 1, b: 1, a: 1}
+        key2: {r: 0, g: 0, b: 0, a: 0}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+        key4: {r: 0, g: 0, b: 0, a: 0}
+        key5: {r: 0, g: 0, b: 0, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 0
+        ctime3: 0
+        ctime4: 0
+        ctime5: 0
+        ctime6: 0
+        ctime7: 0
+        atime0: 0
+        atime1: 65535
+        atime2: 0
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_ColorSpace: -1
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      objectValue: {fileID: 0}
+    - name: GameObject
+      type: UnityEngine.Object, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      isConstant: 1
+      singleValue: 0
+      int32Value: 0
+      stringValue: 
+      booleanValue: 0
+      vector2Value: {x: 0, y: 0}
+      vector3Value: {x: 0, y: 0, z: 0}
+      vector4Value: {x: 0, y: 0, z: 0, w: 0}
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      animationcurveValue:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      gradientValue:
+        serializedVersion: 2
+        key0: {r: 1, g: 1, b: 1, a: 1}
+        key1: {r: 1, g: 1, b: 1, a: 1}
+        key2: {r: 0, g: 0, b: 0, a: 0}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+        key4: {r: 0, g: 0, b: 0, a: 0}
+        key5: {r: 0, g: 0, b: 0, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 0
+        ctime3: 0
+        ctime4: 0
+        ctime5: 0
+        ctime6: 0
+        ctime7: 0
+        atime0: 0
+        atime1: 65535
+        atime2: 0
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_ColorSpace: -1
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      objectValue: {fileID: 0}
+    - name: Yazan
+      type: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      isConstant: 0
+      singleValue: 0
+      int32Value: 0
+      stringValue: 
+      booleanValue: 0
+      vector2Value: {x: 0, y: 0}
+      vector3Value: {x: 0, y: 0, z: 0}
+      vector4Value: {x: 0, y: 0, z: 0, w: 0}
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      animationcurveValue:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      gradientValue:
+        serializedVersion: 2
+        key0: {r: 1, g: 1, b: 1, a: 1}
+        key1: {r: 1, g: 1, b: 1, a: 1}
+        key2: {r: 0, g: 0, b: 0, a: 0}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+        key4: {r: 0, g: 0, b: 0, a: 0}
+        key5: {r: 0, g: 0, b: 0, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 0
+        ctime3: 0
+        ctime4: 0
+        ctime5: 0
+        ctime6: 0
+        ctime7: 0
+        atime0: 0
+        atime1: 65535
+        atime2: 0
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_ColorSpace: -1
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      objectValue: {fileID: 0}
+  references:
+    version: 2
+    RefIds:
+    - rid: 2139147338906075288
+      type: {class: OnEnable, ns: Snowy.SnGraph.Tests, asm: Assembly-CSharp}
+      data:
+        id: 6f7c03e4-e4a7-43d2-b9f2-c53c95bf3c03
+        name: On Enable
+        graph: {fileID: 11400000}
+        position: {x: -10, y: 0}
+        ports:
+        - name: ExecOut
+          type: Snowy.SnGraph.Tests.ExecutionFlowData, Assembly-CSharp, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+          capacity: 0
+          direction: 1
+          orientation: 0
+          connections:
+          - nodeId: d987c4c8-615c-429a-bde0-e25adeb9d098
+            portName: ExecIn
+    - rid: 2139147338906075289
+      type: {class: OnUpdate, ns: Snowy.SnGraph.Tests, asm: Assembly-CSharp}
+      data:
+        id: 6192a3f6-a8e2-4cb0-adbd-b03839f48123
+        name: On Update
+        graph: {fileID: 11400000}
+        position: {x: -11, y: 562}
+        ports:
+        - name: ExecOut
+          type: Snowy.SnGraph.Tests.ExecutionFlowData, Assembly-CSharp, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+          capacity: 0
+          direction: 1
+          orientation: 0
+          connections:
+          - nodeId: ea7c2014-e13d-43ae-a4cb-557b5362ba15
+            portName: ExecIn
+    - rid: 2139147338906075296
+      type: {class: Loop, ns: Snowy.SnGraph.Tests, asm: Assembly-CSharp}
+      data:
+        id: d987c4c8-615c-429a-bde0-e25adeb9d098
+        name: Loop
+        graph: {fileID: 11400000}
+        position: {x: 151, y: 0}
+        ports:
+        - name: Then
+          type: Snowy.SnGraph.Tests.ExecutionFlowData, Assembly-CSharp, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+          capacity: 0
+          direction: 1
+          orientation: 0
+          connections:
+          - nodeId: d3a1de43-dfc4-4fc6-8773-02bbd69bcea6
+            portName: ExecIn
+        - name: ExecOut
+          type: Snowy.SnGraph.Tests.ExecutionFlowData, Assembly-CSharp, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+          capacity: 0
+          direction: 1
+          orientation: 0
+          connections:
+          - nodeId: 09d29c83-a7cd-4b1e-854f-3eb68f92a713
+            portName: ExecIn
+        - name: Count
+          type: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+          capacity: 0
+          direction: 0
+          orientation: 0
+          connections:
+          - nodeId: 8bedffcb-bd97-47d1-8f50-0bf3d2ce1d29
+            portName: Value
+        - name: Current
+          type: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+          capacity: 1
+          direction: 1
+          orientation: 0
+          connections:
+          - nodeId: 616bdaff-c6e1-4804-870e-c4c17daa9bac
+            portName: obj
+        - name: ExecIn
+          type: Snowy.SnGraph.Tests.ExecutionFlowData, Assembly-CSharp, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+          capacity: 1
+          direction: 0
+          orientation: 0
+          connections:
+          - nodeId: 6f7c03e4-e4a7-43d2-b9f2-c53c95bf3c03
+            portName: ExecOut
+        count: 0
+    - rid: 2139147338906075303
+      type: {class: GetVariableNode, ns: Snowy.SnGraph.Tests, asm: Assembly-CSharp}
+      data:
+        id: 03522780-a245-489e-82f7-3020877f8dcd
+        name: ITest
+        graph: {fileID: 11400000}
+        position: {x: 354, y: 83}
+        ports:
+        - name: Value
+          type: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+          capacity: 1
+          direction: 1
+          orientation: 0
+          connections:
+          - nodeId: 67525dbc-5d33-4da2-9188-e96c52d334a0
+            portName: value1
+    - rid: 2139147338906075304
+      type: {class: SetVariableNode, ns: Snowy.SnGraph.Tests, asm: Assembly-CSharp}
+      data:
+        id: 09d29c83-a7cd-4b1e-854f-3eb68f92a713
+        name: Set
+        graph: {fileID: 11400000}
+        position: {x: 693, y: 0}
+        ports:
+        - name: ExecOut
+          type: Snowy.SnGraph.Tests.ExecutionFlowData, Assembly-CSharp, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+          capacity: 0
+          direction: 1
+          orientation: 0
+          connections:
+          - nodeId: 616bdaff-c6e1-4804-870e-c4c17daa9bac
+            portName: ExecIn
+        - name: ExecIn
+          type: Snowy.SnGraph.Tests.ExecutionFlowData, Assembly-CSharp, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+          capacity: 1
+          direction: 0
+          orientation: 0
+          connections:
+          - nodeId: d987c4c8-615c-429a-bde0-e25adeb9d098
+            portName: ExecOut
+        - name: ITest
+          type: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+          capacity: 0
+          direction: 0
+          orientation: 0
+          connections:
+          - nodeId: f255f0c7-0147-4a03-b300-0f4baf9252ef
+            portName: result
+        variableName: ITest
+    - rid: 2139147338906075305
+      type: {class: Add, ns: Snowy.SnGraph.Tests, asm: Assembly-CSharp}
+      data:
+        id: 67525dbc-5d33-4da2-9188-e96c52d334a0
+        name: Add
+        graph: {fileID: 11400000}
+        position: {x: 448, y: 83}
+        ports:
+        - name: value1
+          type: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+          capacity: 0
+          direction: 0
+          orientation: 0
+          connections:
+          - nodeId: 03522780-a245-489e-82f7-3020877f8dcd
+            portName: Value
+        - name: value2
+          type: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+          capacity: 0
+          direction: 0
+          orientation: 0
+          connections: []
+        - name: result
+          type: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+          capacity: 1
+          direction: 1
+          orientation: 0
+          connections:
+          - nodeId: f255f0c7-0147-4a03-b300-0f4baf9252ef
+            portName: value
+        value1: 0
+        value2: 1
+        result: 0
+    - rid: 2139147338906075311
+      type: {class: ToInt, ns: Snowy.SnGraph.Tests, asm: Assembly-CSharp}
+      data:
+        id: f255f0c7-0147-4a03-b300-0f4baf9252ef
+        name: To Int
+        graph: {fileID: 11400000}
+        position: {x: 576, y: 83}
+        ports:
+        - name: value
+          type: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+          capacity: 0
+          direction: 0
+          orientation: 0
+          connections:
+          - nodeId: 67525dbc-5d33-4da2-9188-e96c52d334a0
+            portName: result
+        - name: result
+          type: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+          capacity: 1
+          direction: 1
+          orientation: 0
+          connections:
+          - nodeId: 09d29c83-a7cd-4b1e-854f-3eb68f92a713
+            portName: ITest
+        value: 0
+        result: 0
+    - rid: 2139147338906075315
+      type: {class: DebugLog, ns: Snowy.SnGraph.Tests, asm: Assembly-CSharp}
+      data:
+        id: 616bdaff-c6e1-4804-870e-c4c17daa9bac
+        name: Debug Log
+        graph: {fileID: 11400000}
+        position: {x: 931, y: 0}
+        ports:
+        - name: ExecOut
+          type: Snowy.SnGraph.Tests.ExecutionFlowData, Assembly-CSharp, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+          capacity: 0
+          direction: 1
+          orientation: 0
+          connections: []
+        - name: message
+          type: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+          capacity: 0
+          direction: 0
+          orientation: 0
+          connections: []
+        - name: obj
+          type: System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+          capacity: 0
+          direction: 0
+          orientation: 0
+          connections:
+          - nodeId: d987c4c8-615c-429a-bde0-e25adeb9d098
+            portName: Current
+        - name: context
+          type: UnityEngine.Object, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+            PublicKeyToken=null
+          capacity: 0
+          direction: 0
+          orientation: 0
+          connections:
+          - nodeId: 87222859-9157-4110-b3a6-4c348a25514c
+            portName: Value
+        - name: ExecIn
+          type: Snowy.SnGraph.Tests.ExecutionFlowData, Assembly-CSharp, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+          capacity: 1
+          direction: 0
+          orientation: 0
+          connections:
+          - nodeId: 09d29c83-a7cd-4b1e-854f-3eb68f92a713
+            portName: ExecOut
+        message: Current Count
+        context: {fileID: 0}
+        mode: 0
+    - rid: 2139147338906075317
+      type: {class: GetVariableNode, ns: Snowy.SnGraph.Tests, asm: Assembly-CSharp}
+      data:
+        id: 8bedffcb-bd97-47d1-8f50-0bf3d2ce1d29
+        name: Counter
+        graph: {fileID: 11400000}
+        position: {x: 37, y: 83}
+        ports:
+        - name: Value
+          type: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+          capacity: 1
+          direction: 1
+          orientation: 0
+          connections:
+          - nodeId: d987c4c8-615c-429a-bde0-e25adeb9d098
+            portName: Count
+    - rid: 2139147338906075318
+      type: {class: DebugLog, ns: Snowy.SnGraph.Tests, asm: Assembly-CSharp}
+      data:
+        id: d3a1de43-dfc4-4fc6-8773-02bbd69bcea6
+        name: Debug Log
+        graph: {fileID: 11400000}
+        position: {x: 336.5, y: 198}
+        ports:
+        - name: ExecOut
+          type: Snowy.SnGraph.Tests.ExecutionFlowData, Assembly-CSharp, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+          capacity: 0
+          direction: 1
+          orientation: 0
+          connections: []
+        - name: message
+          type: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+          capacity: 0
+          direction: 0
+          orientation: 0
+          connections: []
+        - name: obj
+          type: System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+          capacity: 0
+          direction: 0
+          orientation: 0
+          connections:
+          - nodeId: 4d16ec0d-7774-41ab-9c54-253225605f39
+            portName: Value
+        - name: context
+          type: UnityEngine.Object, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+            PublicKeyToken=null
+          capacity: 0
+          direction: 0
+          orientation: 0
+          connections:
+          - nodeId: 02fc9268-41f3-4bdf-aa9a-82e5c8f04109
+            portName: Value
+        - name: ExecIn
+          type: Snowy.SnGraph.Tests.ExecutionFlowData, Assembly-CSharp, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+          capacity: 1
+          direction: 0
+          orientation: 0
+          connections:
+          - nodeId: d987c4c8-615c-429a-bde0-e25adeb9d098
+            portName: Then
+        message: 'Done the final number is: '
+        context: {fileID: 0}
+        mode: 0
+    - rid: 2139147338906075319
+      type: {class: GetVariableNode, ns: Snowy.SnGraph.Tests, asm: Assembly-CSharp}
+      data:
+        id: 4d16ec0d-7774-41ab-9c54-253225605f39
+        name: ITest
+        graph: {fileID: 11400000}
+        position: {x: 237, y: 216}
+        ports:
+        - name: Value
+          type: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+          capacity: 1
+          direction: 1
+          orientation: 0
+          connections:
+          - nodeId: d3a1de43-dfc4-4fc6-8773-02bbd69bcea6
+            portName: obj
+    - rid: 2139147338906075335
+      type: {class: OnStart, ns: Snowy.SnGraph.Tests, asm: Assembly-CSharp}
+      data:
+        id: a189c149-5f42-4ee3-9821-233a352790af
+        name: On Start
+        graph: {fileID: 11400000}
+        position: {x: -11, y: 492}
+        ports:
+        - name: ExecOut
+          type: Snowy.SnGraph.Tests.ExecutionFlowData, Assembly-CSharp, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+          capacity: 0
+          direction: 1
+          orientation: 0
+          connections: []
+    - rid: 2139147338906075337
+      type: {class: OnDisable, ns: Snowy.SnGraph.Tests, asm: Assembly-CSharp}
+      data:
+        id: 1636407a-9f81-4358-bc15-c63dfb5b94c5
+        name: On Disable
+        graph: {fileID: 11400000}
+        position: {x: -11, y: 833}
+        ports:
+        - name: ExecOut
+          type: Snowy.SnGraph.Tests.ExecutionFlowData, Assembly-CSharp, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+          capacity: 0
+          direction: 1
+          orientation: 0
+          connections: []
+    - rid: 2139147338906075339
+      type: {class: Branch, ns: Snowy.SnGraph.Tests, asm: Assembly-CSharp}
+      data:
+        id: ea7c2014-e13d-43ae-a4cb-557b5362ba15
+        name: Branch
+        graph: {fileID: 11400000}
+        position: {x: 223, y: 562}
+        ports:
+        - name: Else
+          type: Snowy.SnGraph.Tests.ExecutionFlowData, Assembly-CSharp, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+          capacity: 0
+          direction: 1
+          orientation: 0
+          connections: []
+        - name: ExecOut
+          type: Snowy.SnGraph.Tests.ExecutionFlowData, Assembly-CSharp, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+          capacity: 0
+          direction: 1
+          orientation: 0
+          connections:
+          - nodeId: df79e082-8c04-4e4d-9185-fbf5fae2dc54
+            portName: ExecIn
+        - name: Condition
+          type: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+          capacity: 0
+          direction: 0
+          orientation: 0
+          connections:
+          - nodeId: 75b12364-7a31-4fd2-9820-31c1be68b5de
+            portName: Value
+        - name: ExecIn
+          type: Snowy.SnGraph.Tests.ExecutionFlowData, Assembly-CSharp, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+          capacity: 1
+          direction: 0
+          orientation: 0
+          connections:
+          - nodeId: 6192a3f6-a8e2-4cb0-adbd-b03839f48123
+            portName: ExecOut
+        condition: 0
+    - rid: 2139147338906075343
+      type: {class: GetVariableNode, ns: Snowy.SnGraph.Tests, asm: Assembly-CSharp}
+      data:
+        id: 75b12364-7a31-4fd2-9820-31c1be68b5de
+        name: UseUpdate
+        graph: {fileID: 11400000}
+        position: {x: 93, y: 625}
+        ports:
+        - name: Value
+          type: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+          capacity: 1
+          direction: 1
+          orientation: 0
+          connections:
+          - nodeId: ea7c2014-e13d-43ae-a4cb-557b5362ba15
+            portName: Condition
+    - rid: 2139147338906075344
+      type: {class: DebugLog, ns: Snowy.SnGraph.Tests, asm: Assembly-CSharp}
+      data:
+        id: df79e082-8c04-4e4d-9185-fbf5fae2dc54
+        name: Debug Log
+        graph: {fileID: 11400000}
+        position: {x: 459, y: 562}
+        ports:
+        - name: ExecOut
+          type: Snowy.SnGraph.Tests.ExecutionFlowData, Assembly-CSharp, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+          capacity: 0
+          direction: 1
+          orientation: 0
+          connections: []
+        - name: message
+          type: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+          capacity: 0
+          direction: 0
+          orientation: 0
+          connections: []
+        - name: obj
+          type: System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+          capacity: 0
+          direction: 0
+          orientation: 0
+          connections: []
+        - name: context
+          type: UnityEngine.Object, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+            PublicKeyToken=null
+          capacity: 0
+          direction: 0
+          orientation: 0
+          connections:
+          - nodeId: 3fabf9e0-1004-49d1-ac71-aa65effb3579
+            portName: Value
+        - name: ExecIn
+          type: Snowy.SnGraph.Tests.ExecutionFlowData, Assembly-CSharp, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+          capacity: 1
+          direction: 0
+          orientation: 0
+          connections:
+          - nodeId: ea7c2014-e13d-43ae-a4cb-557b5362ba15
+            portName: ExecOut
+        message: Update us being used...
+        context: {fileID: 0}
+        mode: 0
+    - rid: 2139147338906075357
+      type: {class: GetVariableNode, ns: Snowy.SnGraph.Tests, asm: Assembly-CSharp}
+      data:
+        id: 3fabf9e0-1004-49d1-ac71-aa65effb3579
+        name: GameObject
+        graph: {fileID: 11400000}
+        position: {x: 275, y: 698}
+        ports:
+        - name: Value
+          type: UnityEngine.Object, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+            PublicKeyToken=null
+          capacity: 1
+          direction: 1
+          orientation: 0
+          connections:
+          - nodeId: df79e082-8c04-4e4d-9185-fbf5fae2dc54
+            portName: context
+    - rid: 2139147338906075358
+      type: {class: GetVariableNode, ns: Snowy.SnGraph.Tests, asm: Assembly-CSharp}
+      data:
+        id: 87222859-9157-4110-b3a6-4c348a25514c
+        name: GameObject
+        graph: {fileID: 11400000}
+        position: {x: 751, y: 117}
+        ports:
+        - name: Value
+          type: UnityEngine.Object, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+            PublicKeyToken=null
+          capacity: 1
+          direction: 1
+          orientation: 0
+          connections:
+          - nodeId: 616bdaff-c6e1-4804-870e-c4c17daa9bac
+            portName: context
+    - rid: 2139147338906075359
+      type: {class: GetVariableNode, ns: Snowy.SnGraph.Tests, asm: Assembly-CSharp}
+      data:
+        id: 02fc9268-41f3-4bdf-aa9a-82e5c8f04109
+        name: GameObject
+        graph: {fileID: 11400000}
+        position: {x: 177.5, y: 284}
+        ports:
+        - name: Value
+          type: UnityEngine.Object, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+            PublicKeyToken=null
+          capacity: 1
+          direction: 1
+          orientation: 0
+          connections:
+          - nodeId: d3a1de43-dfc4-4fc6-8773-02bbd69bcea6
+            portName: context

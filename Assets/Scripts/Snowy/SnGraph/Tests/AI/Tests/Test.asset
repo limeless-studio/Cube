@@ -1,0 +1,133 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58bdeff39a2f41a594e887a80cc406de, type: 3}
+  m_Name: Test
+  m_EditorClassIdentifier: 
+  nodes:
+  - rid: 2139147413696282704
+  - rid: 2139147612231827549
+  - rid: 2139147612231827550
+  - rid: 2139147612231827551
+  comments: []
+  assetVersion: 1
+  references:
+    version: 2
+    RefIds:
+    - rid: 2139147413696282704
+      type: {class: AIRootNode, ns: Snowy.SnGraph.AI, asm: Assembly-CSharp}
+      data:
+        id: 9144feb9-90e3-4203-b8e9-caa1ef08ccb8
+        name: Root
+        graph: {fileID: 11400000}
+        position: {x: 0, y: 0}
+        ports:
+        - name: ExecOut
+          type: Snowy.SnGraph.AI.AINodeDataFlow, Assembly-CSharp, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+          capacity: 1
+          direction: 1
+          orientation: 1
+          connections:
+          - nodeId: 154ef6a2-03c4-46ac-9c65-54ad6f56bc46
+            portName: ExecIn
+    - rid: 2139147612231827549
+      type: {class: LogNode, ns: Snowy.SnGraph.AI.Action, asm: Assembly-CSharp}
+      data:
+        id: ceeb7806-3873-4998-99e3-dcf786aad3a3
+        name: Log Node
+        graph: {fileID: 11400000}
+        position: {x: -281, y: 325}
+        ports:
+        - name: ExecIn
+          type: Snowy.SnGraph.AI.AINodeDataFlow, Assembly-CSharp, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+          capacity: 0
+          direction: 0
+          orientation: 1
+          connections:
+          - nodeId: 154ef6a2-03c4-46ac-9c65-54ad6f56bc46
+            portName: ExecOut
+        - name: message
+          type: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+          capacity: 0
+          direction: 0
+          orientation: 0
+          connections: []
+        - name: obj
+          type: System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+          capacity: 0
+          direction: 0
+          orientation: 0
+          connections: []
+        - name: context
+          type: UnityEngine.Object, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+            PublicKeyToken=null
+          capacity: 0
+          direction: 0
+          orientation: 0
+          connections: []
+        message: This is a test
+        context: {fileID: 0}
+        mode: 0
+    - rid: 2139147612231827550
+      type: {class: WaitNode, ns: Snowy.SnGraph.AI.Action, asm: Assembly-CSharp}
+      data:
+        id: 00031d18-bff4-4a00-97bc-8bb95ce3e051
+        name: Wait Node
+        graph: {fileID: 11400000}
+        position: {x: 199, y: 325}
+        ports:
+        - name: ExecIn
+          type: Snowy.SnGraph.AI.AINodeDataFlow, Assembly-CSharp, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+          capacity: 0
+          direction: 0
+          orientation: 1
+          connections:
+          - nodeId: 154ef6a2-03c4-46ac-9c65-54ad6f56bc46
+            portName: ExecOut
+        - name: seconds
+          type: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+          capacity: 0
+          direction: 0
+          orientation: 0
+          connections: []
+        seconds: 5
+    - rid: 2139147612231827551
+      type: {class: SequencerNode, ns: Snowy.SnGraph.AI.Composite, asm: Assembly-CSharp}
+      data:
+        id: 154ef6a2-03c4-46ac-9c65-54ad6f56bc46
+        name: Sequencer
+        graph: {fileID: 11400000}
+        position: {x: -44.09629, y: 158.29301}
+        ports:
+        - name: ExecOut
+          type: Snowy.SnGraph.AI.AINodeDataFlow, Assembly-CSharp, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+          capacity: 1
+          direction: 1
+          orientation: 1
+          connections:
+          - nodeId: ceeb7806-3873-4998-99e3-dcf786aad3a3
+            portName: ExecIn
+          - nodeId: 00031d18-bff4-4a00-97bc-8bb95ce3e051
+            portName: ExecIn
+        - name: ExecIn
+          type: Snowy.SnGraph.AI.AINodeDataFlow, Assembly-CSharp, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+          capacity: 0
+          direction: 0
+          orientation: 1
+          connections:
+          - nodeId: 9144feb9-90e3-4203-b8e9-caa1ef08ccb8
+            portName: ExecOut
+        UpdateInTheSameFrame: 1
